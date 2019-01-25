@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity implements ListFrag.ItemSelected{
 
     TextView tvDescription;
-    ArrayList<String> descriptions = new ArrayList<String>();
+    ArrayList<String> descriptions; //= new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
